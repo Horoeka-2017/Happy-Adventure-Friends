@@ -1,0 +1,17 @@
+{
+  "synopsis": {
+    "text": "abc"
+
+  },
+  "treeHouse": {
+    "storyText": "abc",
+    "options": {
+      "panic": "panic",
+      "adventure": "adventure"
+    }
+  },
+  "panic": {
+
+  }
+
+}
