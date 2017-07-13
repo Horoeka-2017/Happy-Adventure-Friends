@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Horoeka-2017/Happy-Adventure-Friends/issues"
   },
-  "homepage": "https://github.com/Horoeka-2017/Happy-Adventure-Friends#readme"
+  "homepage": "https://github.com/Horoeka-2017/Happy-Adventure-Friends#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "tape": "^4.7.0"
+  }
 }
