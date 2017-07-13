@@ -20,6 +20,11 @@
     "url": "https://github.com/Horoeka-2017/Happy-Adventure-Friends/issues"
   },
   "homepage": "https://github.com/Horoeka-2017/Happy-Adventure-Friends#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0"
+  },
   "devDependencies": {
     "eslint": "^4.2.0",
     "eslint-config-standard": "^10.2.1",
@@ -30,5 +35,5 @@
     "nodemon": "^1.11.0",
     "tap-diff": "^0.1.1",
     "tape": "^4.6.3"
-  },
+  }
 }
