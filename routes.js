@@ -1,9 +1,14 @@
 var express = require('express')
 var router = express.Router()
 var db = require('./db.js')
+var path = require('path')
 
 router.get('/', (req, res) => {
-  res.render('./layouts/main', { hi: 'hello world' })
+  res.sendFile(path.join(__dirname + '/index.html'))
 })
+
+// router.get('/character', (req, res) => {
+//   res.render('./layouts/character', characterChoice)
+// })
 
 module.exports = router
