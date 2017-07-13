@@ -3,5 +3,7 @@ var router = express.Router()
 var db = require('./db.js')
 
 router.get('/', (req, res) => {
-  res.redirect('./index.html')
+  res.render('./layouts/main', { hi: 'hello world' })
 })
+
+module.exports = router
