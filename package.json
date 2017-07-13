@@ -4,7 +4,8 @@
   "description": "A Game",
   "main": "index.js",
   "scripts": {
-    "test": "tests"
+    "test": "tests",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
