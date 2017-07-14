@@ -28,23 +28,31 @@ router.get('/url/:id', (req, res) => {
     }
   })
 })
-router.get('/end/one', (req, res) => {
-  fs.readFile('./data-files/story-stage3.json', 'utf8', (err,content) => {
-    if (err) {
-      return res.status(500).send('Cannot read file')
-    }
-    
-  })
-})
-
 router.get('/end/two', (req, res) => {
-  fs.readFile('/data-files/bad-ending.json', 'utf8', (err,
+  fs.readFile('./data-files/bad-ending.json', 'utf8', (err,
     content) => {
     if (err) {
       return res.status(500).send('Cannot read file')
     }
-    var story = JSON.parse(content).exitRight
-    res.render('bad-ending', story)
+  
+     var story = JSON.parse(content).stories.find(x => {
+      return x.id === 8
+    })
+    res.render('ending', story)
+  })
+})
+
+
+router.get('/end/two', (req, res) => {
+  fs.readFile('./data-files/good-ending.json', 'utf8', (err,
+    content) => {
+    if (err) {
+      return res.status(500).send('Cannot read file')
+    }
+    var story = JSON.parse(content).stories.find(x => {
+      return x.id === 9
+    })
+    res.render('ending', story)
   })
 })
 
