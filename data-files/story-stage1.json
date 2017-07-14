@@ -1,7 +1,20 @@
 {
-  "friendmissing": {
-    "optionA": "Panic",
-    "optionAExtra": "Friend Arrives Message",
-    "optionB": "Go get him"
-  }
+  "imgref": "#",
+  "beginning": "initial text",
+  "FriendIsMissing": {
+    "story": "story text",
+    "option1": "Panic because your friend's gone",
+    "option2": "Go seek your friend"
+  },
+  "Panic": {
+    "story": "story text",
+    "option1": "continue",
+    "option2": "Go seek your friend"
+  },
+  "goAdventure": {
+    "story": "story text",
+    "option1": "continue",
+    "option2": "continue"
+  },
+
 }

@@ -1,0 +1,19 @@
+{
+    "imgref": "#",
+    "beginning": "river",
+    "rightLeft": {
+        "story": "story text",
+        "option1": "Exit Left",
+        "option2": "Exit Right"
+    },
+    "exitLeft": {
+        "story": "slip and die",
+        "finish": "Run from Noise",
+
+    },
+    "exitRight": {
+        "story": "find freidn drunk a short distance away",
+        "finish": "finish",
+    },
+
+}

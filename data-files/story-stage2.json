@@ -1,0 +1,20 @@
+{
+    "imgref": "#",
+    "beginning": "initial text",
+    "leprechaun": {
+        "story": "story text",
+        "option1": "Punch Him in The Nuts",
+        "option2": "Give Him a Daisy"
+    },
+    "punched": {
+        "story": "story text",
+        "option1": "continue",
+        "option2": "Go seek your friend"
+    },
+    "daisy": {
+        "story": "story text",
+        "option1": "continue",
+        "option2": "continue"
+    },
+
+}
