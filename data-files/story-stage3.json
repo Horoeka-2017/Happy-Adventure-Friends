@@ -1,19 +1,36 @@
 {
-    "imgref": "#",
-    "beginning": "river",
-    "rightLeft": {
-        "story": "story text",
-        "option1": "Exit Left",
-        "option2": "Exit Right"
-    },
-    "exitLeft": {
-        "story": "slip and die",
-        "finish": "Run from Noise",
+  "imgref": "#",
+
+  "beginning": "river",
+
+  "stories": [{
+      "id": 1,
+      "story": "story text",
+      "options": [
+        { "option1": "Exit Left" },
+        { "option2": "Exit Right" }
+      ]
 
     },
+<<<<<<< HEAD
     "exitRight": {
         "story": "find friend drunk a short distance away",
         "finish": "finish",
+=======
+
+    {
+
+      "id": 2,
+      "story": "slip and die",
+      "finish": "Run from Noise"
+
+>>>>>>> d45a91e4e6e674c25ea63708c691af6edfc9b4a5
     },
 
+
+    {
+      "story": "find friend drunk a short distance away",
+      "finish": "finish"
+    }
+  ]
 }
