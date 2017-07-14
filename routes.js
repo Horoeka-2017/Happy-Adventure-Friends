@@ -1,7 +1,7 @@
-var express = require('express')
-var router = express.Router()
-var db = require('./db.js')
-var path = require('path')
+const express = require('express')
+const router = express.Router()
+const db = require('./db.js')
+const path = require('path')
 
 // var storyStageOne = require('./data-files/story-stage1')
 // router.get('/', (req, res) => {
@@ -19,15 +19,13 @@ router.get('url/1', (req, res) => {
       var foundStory = storyObj.stories.find((storySeg) => {
         if (storySeg.id === Number(req.params.id)) {
           return true
-            // this can be changed to return storySeg.id === Number(req.params.id)
+          // this can be changed to return storySeg.id === Number(req.params.id)
         }
       })
       res.render('play-page', foundStory)
     }
   })
 })
-
-stories.options[0]
 
 
 router.get('/end/one', (req, res) => {
@@ -58,5 +56,4 @@ router.get('/end/two', (req, res) => {
 // router.get('/character', (req, res) => {
 //   res.render('./layouts/character', characterChoice)
 // })
-
 module.exports = router
