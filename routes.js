@@ -8,10 +8,10 @@ router.get('/', (req, res) => {
 })
 
 router.get('/story/:id', (req, res) => {
-      if (req.params.id === //storyid1)
+  if (req.params.id === //storyid1)
       })
-    // router.get('/character', (req, res) => {
-    //   res.render('./layouts/character', characterChoice)
-    // })
+// router.get('/character', (req, res) => {
+//   res.render('./layouts/character', characterChoice)
+// })
 
-    module.exports = router
+module.exports = router
