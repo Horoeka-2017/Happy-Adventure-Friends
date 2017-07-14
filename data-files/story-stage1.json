@@ -4,14 +4,14 @@
   "beginning": "initial text",
   /*PART 1*/
   /* "FriendIsMissing": */
-  "stories": [{
+  "stories": {
+    {
       "id": 1,
       "story": "story text",
       "options": [
         { "option": "Panic because your friend's gone" },
         { "option": "Go seek your friend" }
       ]
-
     },
     /*"Panic":*/
     {
@@ -89,5 +89,5 @@
       "story": "find friend drunk a short distance away",
       "finish": "finish"
     }
-  ]
+  }
 }
