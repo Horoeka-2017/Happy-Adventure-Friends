@@ -1,28 +1,28 @@
 {
-  "imgref": "#",
+    "imgref": "#",
 
-  "beginning": "initial text",
+    "beginning": "initial text",
 
-  /* "FriendIsMissing": */
-  {
-    "id": 1,
-    "story": "story text",
-    "option1": "Panic because your friend's gone",
-    "option2": "Go seek your friend"
-  },
-  /*"Panic":*/
-  {
-    "id": 2,
-    "story": "story text",
-    "option1": "continue",
-    "option2": "Go seek your friend"
-  },
-  /* "goAdventure":*/
-  {
-    "id": 3,
-    "story": "story text",
-    "option1": "continue",
-    "option2": "continue"
-  },
+    /* "FriendIsMissing": */
+    {
+        "id": 1,
+        "story": "story text",
+        "option1": "Panic because your friend's gone",
+        "option2": "Go seek your friend"
+    },
+    /*"Panic":*/
+    {
+        "id": 2,
+        "story": "story text",
+        "option1": "continue",
+        "option2": "Go seek your friend"
+    },
+    /* "goAdventure":*/
+    {
+        "id": 3,
+        "story": "story text",
+        "option1": "continue",
+        "option2": "continue"
+    },
 
 }
