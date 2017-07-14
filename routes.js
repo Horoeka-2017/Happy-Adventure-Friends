@@ -20,7 +20,6 @@ router.get('/url/:id', (req, res) => {
 
       var foundStory = storyObj.stories.find((story) => {
         if (story.id === Number(req.params.id)) {
-          console.log(story.id)
           return true
 
         }
