@@ -7,14 +7,13 @@
         "option2": "Exit Right"
     },
     "exitLeft": {
-        "story": "story text",
-        "option1": "Run from Noise",
-        "option2": "Stay still"
+        "story": "slip and die",
+        "finish": "Run from Noise",
+
     },
     "exitRight": {
-        "story": "story text",
-        "option1": "continue",
-        "option2": "continue"
+        "story": "find freidn drunk a short distance away",
+        "finish": "finish",
     },
 
 }
