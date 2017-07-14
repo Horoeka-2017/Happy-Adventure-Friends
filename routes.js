@@ -3,19 +3,35 @@ var router = express.Router()
 var db = require('./db.js')
 var path = require('path')
 
+var storyStageOne = require('./datafiles/story-stage1.json')
 router.get('/', (req, res) => {
-  res.render('main', { hi: 'hello world' })
+
+  res.sendFile(path.join(__dirname + '/index.html'))
 })
 
-<<<<<<< HEAD
-router.get('/story/:id', (req, res) => {
-  if (req.params.id === //storyid1)
-      })
+router.get('url', (req, res) => {
+  fs.readFile('/datafiles/story-stage1.json', 'utf8', (err, storyStage1) => {
+    if (err) {
+      return res.status(500).send('An error has occurred')
+    } else {
+      var storyObj = JSON.parse(storyStage1)
+
+      var foundStory = storyObj.stories.find(storySeg) => {
+        if (storySeg.id === Number(req.params.id)) {
+          return true
+        }
+      }
+      res.render('play-page', foundStory)
+    }
+  })
+})
+
+
+
+
 // router.get('/character', (req, res) => {
 //   res.render('./layouts/character', characterChoice)
 // })
 
 module.exports = router
-=======
-module.exports = router\
->>>>>>> max-ali
+
