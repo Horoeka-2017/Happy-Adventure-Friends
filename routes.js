@@ -42,12 +42,12 @@ router.get('/end/one',(req,res) => {
 })
 
 router.get('/end/two',(req,res) => {
-  fs.readFile('/data-files/story-stage3.json','utf8',(err, content) => {
+  fs.readFile('/data-files/bad-ending.json','utf8',(err, content) => {
     if (err) {
       return res.status(500).send('Cannot read file')
     }
     var story = JSON.parse(content).exitRight
-    res.render('ending',story)
+    res.render('bad-ending',story)
     
 
   })

@@ -1,0 +1,20 @@
+{
+    "imgref": "#",
+    "beginning": "initial text",
+    "Samson": {
+        "id": "1",
+        "Name": "Samson the TROLL ",
+        "Image": "/public/pictures/samson.jpg"
+    },
+    "Barry": {
+        "id": "2",
+        "Name": "Barry the BAT",
+        "Image": "/public/pictures/barry-the-bat.jpg"
+    },
+    "Dinky": {
+        "id": "3",
+        "Name": "Dinky the DINOSAUR",
+        "Image": "/public/pictures/dinky-the-dino.jpg"
+    },
+
+}
