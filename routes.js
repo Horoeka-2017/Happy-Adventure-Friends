@@ -36,5 +36,4 @@ router.get('/url/:id', (req, res) => {
 // router.get('/character', (req, res) => {
 //   res.render('./layouts/character', characterChoice)
 // })
-
 module.exports = router
