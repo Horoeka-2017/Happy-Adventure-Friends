@@ -29,6 +29,30 @@ router.get('url', (req, res) => {
 
 
 
+router.get('/end/one',(req,res) => {
+  fs.readFile('/data-files/story-stage3.json','utf8',(err, content) => {
+    if (err) {
+      return res.status(500).send('Cannot read file')
+    }
+    var story = JSON.parse(content).exitLeft
+    res.render('ending',story)
+    
+
+  })
+})
+
+router.get('/end/two',(req,res) => {
+  fs.readFile('/data-files/story-stage3.json','utf8',(err, content) => {
+    if (err) {
+      return res.status(500).send('Cannot read file')
+    }
+    var story = JSON.parse(content).exitRight
+    res.render('ending',story)
+    
+
+  })
+})
+
 
 // router.get('/character', (req, res) => {
 //   res.render('./layouts/character', characterChoice)
