@@ -19,6 +19,7 @@ router.get('url/number', (req, res) => {
       var foundStory = storyObj.stories.find(storySeg) => {
         if (storySeg.id === Number(req.params.id)) {
           return true
+          // this can be changed to return storySeg.id === Number(req.params.id)
         }
       }
       res.render('play-page', foundStory)
