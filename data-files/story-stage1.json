@@ -1,7 +1,7 @@
 {
-    "friendmissing": {
-        "optionA": "Panic",
-        "optionAExtra": "Friend Arrives Message",
-        "optionB": "Go get him"
-    }
+  "friendmissing": {
+    "optionA": "Panic",
+    "optionAExtra": "Friend Arrives Message",
+    "optionB": "Go get him"
+  }
 }
