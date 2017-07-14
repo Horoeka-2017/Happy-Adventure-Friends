@@ -5,6 +5,7 @@ var path = require('path')
 
 var storyStageOne = require('./datafiles/story-stage1.json')
 router.get('/', (req, res) => {
+
   res.sendFile(path.join(__dirname + '/index.html'))
 })
 
@@ -33,3 +34,4 @@ router.get('url', (req, res) => {
 // })
 
 module.exports = router
+
