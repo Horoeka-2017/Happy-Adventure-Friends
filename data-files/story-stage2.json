@@ -1,20 +1,37 @@
 {
-    "imgref": "#",
-    "beginning": "initial text",
-    "leprechaun": {
-        "story": "story text",
-        "option1": "Punch Him in The Nuts",
-        "option2": "Give Him a Daisy"
+  "imgref": "#",
+
+
+  "beginning": "initial text",
+
+  /*"leprechaun": [{*/
+  "stories": [{
+      "id": 1,
+      "story": "story text",
+      "options": [
+        { "option": "Punch Him in The Nuts" },
+        { "option": "Give Him a Daisy" }
+      ]
     },
-    "punched": {
-        "story": "story text",
-        "option1": "continue",
-        "option2": "Go seek your friend"
+
+    /*"punched": */
+    {
+      "id": 2,
+      "story": "story text",
+      "options": [
+        { "option": "continue" },
+        { "option": "Go seek your friend" }
+      ]
     },
-    "daisy": {
-        "story": "story text",
-        "option1": "continue",
-        "option2": "continue"
-    },
+    /*"daisy":*/
+    {
+      "id": 3,
+      "story": "story text",
+      "options": [
+        { "option": "continue" },
+        { "option2": "continue" }
+      ]
+    }
+  ]
 
 }
