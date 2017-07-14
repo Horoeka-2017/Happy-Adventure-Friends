@@ -1,20 +1,28 @@
 {
-    "imgref": "#",
-    "beginning": "initial text",
-    "FriendIsMissing": {
-        "story": "story text",
-        "option1": "Panic because your friend's gone",
-        "option2": "Go seek your friend"
-    },
-    "Panic": {
-        "story": "story text",
-        "option1": "continue",
-        "option2": "Go seek your friend"
-    },
-    "goAdventure": {
-        "story": "story text",
-        "option1": "continue",
-        "option2": "continue"
-    },
+  "imgref": "#",
+
+  "beginning": "initial text",
+
+  /* "FriendIsMissing": */
+  {
+    "id": 1,
+    "story": "story text",
+    "option1": "Panic because your friend's gone",
+    "option2": "Go seek your friend"
+  },
+  /*"Panic":*/
+  {
+    "id": 2,
+    "story": "story text",
+    "option1": "continue",
+    "option2": "Go seek your friend"
+  },
+  /* "goAdventure":*/
+  {
+    "id": 3,
+    "story": "story text",
+    "option1": "continue",
+    "option2": "continue"
+  },
 
 }
