@@ -12,7 +12,7 @@ Your mission is to find Mimo....and bring him home safely !!
 
 pick character
 
-begin mission
+## begin mission
 
 Once "Character Name", pulled themselves together. They begun their mission. After stumbling along the path for awhile, feeling a little lost and over it, "Character Name" happened upon a still drunk and beligerent Leprechaun named Lliam. He started to become a little quarrelsome. You decide to:
 OPTION A: punch him in the nuts
@@ -22,11 +22,11 @@ OPTION A'S OUTCOME: Gets angry and explodes
 OPTION B'S OUTCOME: He felt overwhelmed with love and explodes
 
 
-Middle Scene:
+## Middle Scene:
 
 "Character Name" decides to wash themself of Lliam's innards at the side of a river. Still feeling a bit wobbly and shaken.... oh no!!!! You fell in the river and got swepped away!!
 
-end scene
+## End scene
 
 Ending Scene:
 
