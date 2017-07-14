@@ -6,4 +6,4 @@ router.get('/', (req, res) => {
   res.render('main', { hi: 'hello world' })
 })
 
-module.exports = router
+module.exports = router\
