@@ -4,25 +4,26 @@
   "beginning": "initial text",
 
   /* "FriendIsMissing": */
-  {
-    "id": 1,
-    "story": "story text",
-    "option1": "Panic because your friend's gone",
-    "option2": "Go seek your friend"
-  },
-  /*"Panic":*/
-  {
-    "id": 2,
-    "story": "story text",
-    "option1": "continue",
-    "option2": "Go seek your friend"
-  },
-  /* "goAdventure":*/
-  {
-    "id": 3,
-    "story": "story text",
-    "option1": "continue",
-    "option2": "continue"
-  },
+  "stories": [{
+      "id": 1,
+      "story": "story text",
+      "options": [{ "option1": "Panic because your friend's gone" },
+        { "option2": "Go seek your friend" }
 
-}
+      },
+      /*"Panic":*/
+      {
+        "id": 2,
+        "story": "story text",
+        "option1": "continue",
+        "option2": "Go seek your friend"
+      },
+      /* "goAdventure":*/
+      {
+        "id": 3,
+        "story": "story text",
+        "option1": "continue",
+        "option2": "continue"
+      }],
+
+  }

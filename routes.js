@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/index.html'))
 })
 
-router.get('url', (req, res) => {
+router.get('url/number', (req, res) => {
   fs.readFile('/datafiles/story-stage1.json', 'utf8', (err, storyStage1) => {
     if (err) {
       return res.status(500).send('An error has occurred')
@@ -25,6 +25,7 @@ router.get('url', (req, res) => {
   })
 })
 
+stories.options[0]
 
 
 
