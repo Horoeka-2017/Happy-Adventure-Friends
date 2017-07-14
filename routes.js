@@ -29,32 +29,30 @@ router.get('/url/:id', (req, res) => {
   })
 })
 router.get('/end/two', (req, res) => {
-  fs.readFile('./data-files/bad-ending.json', 'utf8', (err,
+  fs.readFile('./data-files/story-stage1.json', 'utf8', (err,
     content) => {
     if (err) {
       return res.status(500).send('Cannot read file')
     }
-  
-     var story = JSON.parse(content).stories.find(x => {
-      return x.id === 8
-    })
+
+    var story = JSON.parse(content).stories[7]
+    
     res.render('ending', story)
   })
 })
 
 
-router.get('/end/two', (req, res) => {
-  fs.readFile('./data-files/good-ending.json', 'utf8', (err,
-    content) => {
-    if (err) {
-      return res.status(500).send('Cannot read file')
-    }
-    var story = JSON.parse(content).stories.find(x => {
-      return x.id === 9
-    })
-    res.render('ending', story)
-  })
-})
+// router.get('/end/two', (req, res) => {
+//   fs.readFile('./data-files/story-stage1.json', 'utf8', (err, content) => {
+//     if (err) {
+//       return res.status(500).send('Cannot read file')
+//     }
+//     var story = JSON.parse(content).stories.find(x => {
+//       return x.id === 9
+//     })
+//     res.render('ending', story)
+//   })
+// })
 
 router.get('/', (req, res) => {
   res.render('homepage', {})
