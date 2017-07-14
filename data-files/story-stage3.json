@@ -1,0 +1,20 @@
+{
+    "imgref": "#",
+    "beginning": "river",
+    "rightLeft": {
+        "story": "story text",
+        "option1": "Exit Left",
+        "option2": "Exit Right"
+    },
+    "exitLeft": {
+        "story": "story text",
+        "option1": "Run from Noise",
+        "option2": "Stay still"
+    },
+    "exitRight": {
+        "story": "story text",
+        "option1": "continue",
+        "option2": "continue"
+    },
+
+}
