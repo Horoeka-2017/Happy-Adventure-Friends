@@ -1,8 +1,9 @@
 {
     "imgref": "#",
-    "beginning": "initial text",
+    "beginning": "you wake after the day after an awesomely epic Saint Patties Day celebration in your tree house bed. Your head hurts as you slide out of bed and crawl passed your sleeping flatmates into the kitchen. While trying to peice together the nights antics you realise Mimo the Monkey is missing!!
+    ",
     "FriendIsMissing": {
-        "story": "story text",
+        "story": "You stir the others from their drunken stuppor. None of them can recall what has happened.",
         "option1": "Panic because your friend's gone",
         "option2": "Go seek your friend"
     },
