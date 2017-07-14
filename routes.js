@@ -7,6 +7,7 @@ router.get('/', (req, res) => {
   res.render('main', { hi: 'hello world' })
 })
 
+<<<<<<< HEAD
 router.get('/story/:id', (req, res) => {
   if (req.params.id === //storyid1)
       })
@@ -15,3 +16,6 @@ router.get('/story/:id', (req, res) => {
 // })
 
 module.exports = router
+=======
+module.exports = router\
+>>>>>>> max-ali
