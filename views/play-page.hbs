@@ -1,4 +1,9 @@
 <div class="page">
-  <button id = "story-btn"> Go to page {{pagenumber}}</button>
-  <button id = "story-btn"> Go to page {{pagenumber}}</button>
+  <div class = "story">{{story}}</div>
+  {{#each option}}
+  {{> story-options}}
+  {{/each}}
+
   </div>
+
+
