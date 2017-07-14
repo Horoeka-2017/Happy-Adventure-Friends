@@ -5,7 +5,7 @@ var path = require('path')
 var fs = require('fs')
 
 var storyStageOne = require('./data-files/story-stage1.json')
-  // router.get('/', (req, res) => {
+// router.get('/', (req, res) => {
 
 //   res.sendFile(path.join(__dirname + '/index.html'))
 // })
@@ -29,25 +29,25 @@ router.get('/url/:id', (req, res) => {
   })
 })
 router.get('/end/one', (req, res) => {
-  fs.readFile('./data-files/story-stage3.json', 'utf8', (err,
-    content) => {
+  fs.readFile('./data-files/story-stage3.json', 'utf8', (err,content) => {
     if (err) {
       return res.status(500).send('Cannot read file')
     }
+    
   })
 })
 
 router.get('/end/two', (req, res) => {
-fs.readFile('/data-files/bad-ending.json', 'utf8', (err,
-  content) => {
-  if (err) {
-    return res.status(500).send('Cannot read file')
-  }
-  var story = JSON.parse(content).exitRight
-  res.render('bad-ending', story)
+  fs.readFile('/data-files/bad-ending.json', 'utf8', (err,
+    content) => {
+    if (err) {
+      return res.status(500).send('Cannot read file')
+    }
+    var story = JSON.parse(content).exitRight
+    res.render('bad-ending', story)
+  })
 })
-})
-})
+
 router.get('/', (req, res) => {
   res.render('homepage', {})
 })
