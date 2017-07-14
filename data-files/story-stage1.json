@@ -2,10 +2,8 @@
   "imgref": "#",
 
   "beginning": "initial text",
-  /*PART 1*/
-  /* "FriendIsMissing": */
-  "stories": {
-    {
+
+  "stories": [{
       "id": 1,
       "story": "story text",
       "options": [
@@ -13,7 +11,7 @@
         { "option": "Go seek your friend" }
       ]
     },
-    /*"Panic":*/
+
     {
       "id": 2,
       "story": "story text",
@@ -22,7 +20,7 @@
         { "option": "Go seek your friend" }
       ]
     },
-    /* "goAdventure":*/
+
     {
       "id": 3,
       "story": "story text",
@@ -33,9 +31,6 @@
     },
 
 
-    /*PART 2*/
-
-    /*"leprechaun": [{*/
     {
       "id": 4,
       "story": "story text",
@@ -45,7 +40,6 @@
       ]
     },
 
-    /*"punched": */
     {
       "id": 5,
       "story": "story text",
@@ -54,7 +48,7 @@
         { "option": "Go seek your friend" }
       ]
     },
-    /*"daisy":*/
+
     {
       "id": 6,
       "story": "story text",
@@ -63,7 +57,7 @@
         { "option2": "continue" }
       ]
     },
-    /*PART 3*/
+
     {
 
       "id": 7,
@@ -89,5 +83,5 @@
       "story": "find friend drunk a short distance away",
       "finish": "finish"
     }
-  }
+  ]
 }
