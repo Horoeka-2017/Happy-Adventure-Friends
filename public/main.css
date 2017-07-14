@@ -1,3 +1,67 @@
 
 
+
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+/* Addig style CSS for the SVG log */
+body {
+  background: #444;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+svg circle {
+  fill: none;
+  stroke-width: 5px;
+  stroke: #fafafa;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  opacity: 0;
+  animation: 4s circle-outline infinite alternate;
+}
+
+svg path {
+  fill: none;
+  stroke: #fafafa;
+  stroke-width: 3px;
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  opacity: 0;
+  animation: 4s text-outline infinite alternate;
+}
+
+@keyframes circle-outline {
+  from {
+    stroke-dashoffset: 800;
+    opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes text-outline {
+  from {
+    stroke-dashoffset: 400;
+    opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+/*----------------------------*/
+
+
