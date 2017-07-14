@@ -3,7 +3,7 @@ var router = express.Router()
 var db = require('./db.js')
 
 router.get('/', (req, res) => {
-  res.render('./layouts/main', { hi: 'hello world' })
+  res.render('main', { hi: 'hello world' })
 })
 
 module.exports = router
