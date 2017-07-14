@@ -31,6 +31,10 @@ router.get('/url/:id', (req, res) => {
   })
 })
 
+router.get('/url/:id'), (req, res) => {
+  res.send()
+}
+
 
 
 // router.get('/character', (req, res) => {
