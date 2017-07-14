@@ -1,11 +1,9 @@
 <div class="page">
-  <div class = "story">{[story]}</div>
+  <div class = "story">{{story}}</div>
   {{#each option}}
   {{> story-options}}
   {{/each}}
-  
-  <button id = "story-btn"> Go to page {{pagenumber}}</button>
+
   </div>
 
 
-  <a href="/thing/{{this.id}}"></a>
