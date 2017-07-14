@@ -1,17 +1,25 @@
 {
   "imgref": "#",
+
   "beginning": "initial text",
-  "FriendIsMissing": {
+
+  /* "FriendIsMissing": */
+  {
+    "id": 1,
     "story": "story text",
     "option1": "Panic because your friend's gone",
     "option2": "Go seek your friend"
   },
-  "Panic": {
+  /*"Panic":*/
+  {
+    "id": 2,
     "story": "story text",
     "option1": "continue",
     "option2": "Go seek your friend"
   },
-  "goAdventure": {
+  /* "goAdventure":*/
+  {
+    "id": 3,
     "story": "story text",
     "option1": "continue",
     "option2": "continue"
