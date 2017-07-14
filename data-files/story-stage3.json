@@ -12,6 +12,11 @@
       ]
 
     },
+<<<<<<< HEAD
+    "exitRight": {
+        "story": "find friend drunk a short distance away",
+        "finish": "finish",
+=======
 
     {
 
@@ -19,6 +24,7 @@
       "story": "slip and die",
       "finish": "Run from Noise"
 
+>>>>>>> d45a91e4e6e674c25ea63708c691af6edfc9b4a5
     },
 
 

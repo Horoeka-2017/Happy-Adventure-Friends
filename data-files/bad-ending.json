@@ -1,0 +1,15 @@
+{
+    "imgref": "#",
+
+    "beginning": "initial text",
+
+    /* "Bad Ending": */
+    {
+        "id": 1,
+        "Picture": "/public/",
+        "option1": "You ended Badly !!",
+       
+    },
+    
+
+}
