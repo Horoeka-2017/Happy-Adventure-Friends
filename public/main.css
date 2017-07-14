@@ -22,7 +22,7 @@ svg {
 
 svg circle {
   fill: none;
-  strok-width: 5px;
+  stroke-width: 5px;
   stroke: #fafafa;
   stroke-dasharray: 800;
   stroke-dashoffset: 800;
