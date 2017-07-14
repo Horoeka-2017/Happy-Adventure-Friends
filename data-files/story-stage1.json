@@ -2,28 +2,92 @@
   "imgref": "#",
 
   "beginning": "initial text",
-
+  /*PART 1*/
   /* "FriendIsMissing": */
   "stories": [{
       "id": 1,
       "story": "story text",
-      "options": [{ "option1": "Panic because your friend's gone" },
-        { "option2": "Go seek your friend" }
+      "options": [
+        { "option": "Panic because your friend's gone" },
+        { "option": "Go seek your friend" }
+      ]
 
-      },
-      /*"Panic":*/
-      {
-        "id": 2,
-        "story": "story text",
-        "option1": "continue",
-        "option2": "Go seek your friend"
-      },
-      /* "goAdventure":*/
-      {
-        "id": 3,
-        "story": "story text",
-        "option1": "continue",
-        "option2": "continue"
-      }],
+    },
+    /*"Panic":*/
+    {
+      "id": 2,
+      "story": "story text",
+      "options": [
+        { "option": "continue" },
+        { "option": "Go seek your friend" }
+      ]
+    },
+    /* "goAdventure":*/
+    {
+      "id": 3,
+      "story": "story text",
+      "options": [
+        { "option": "continue" },
+        { "option": "continue" }
+      ]
+    },
 
-  }
+
+    /*PART 2*/
+
+    /*"leprechaun": [{*/
+    {
+      "id": 4,
+      "story": "story text",
+      "options": [
+        { "option": "Punch Him in The Nuts" },
+        { "option": "Give Him a Daisy" }
+      ]
+    },
+
+    /*"punched": */
+    {
+      "id": 5,
+      "story": "story text",
+      "options": [
+        { "option": "continue" },
+        { "option": "Go seek your friend" }
+      ]
+    },
+    /*"daisy":*/
+    {
+      "id": 6,
+      "story": "story text",
+      "options": [
+        { "option": "continue" },
+        { "option2": "continue" }
+      ]
+    },
+    /*PART 3*/
+    {
+
+      "id": 7,
+      "story": "story text",
+      "options": [
+        { "option1": "Exit Left" },
+        { "option2": "Exit Right" }
+      ]
+
+    },
+
+    {
+
+      "id": 8,
+      "story": "slip and die",
+      "finish": "Run from Noise"
+
+    },
+
+
+    {
+      "id": 9,
+      "story": "find friend drunk a short distance away",
+      "finish": "finish"
+    }
+  ]
+}
