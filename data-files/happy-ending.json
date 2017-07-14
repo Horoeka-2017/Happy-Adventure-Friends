@@ -1,0 +1,15 @@
+{
+    "imgref": "#",
+
+    "ending": "initial text",
+
+    /* "Happy Ending": */
+    {
+        "id": 1,
+        "Picture": "/public/pictures/dinky-happy-ending.jpg",
+        "option": "You found your hungover buddy!!",
+       
+    },
+    
+
+}
