@@ -1,93 +1,75 @@
 {
-  "imgref": "#",
+    "imgref": "#",
+    "beginning": "initial text",
+    "stories": [{
+            "id": 1,
+            "story": "story text",
+            "options": [
+                { "option": "Panic because your friend's gone", "link": 2 },
+                { "option": "Go seek your friend", "link": 3 }
+            ]
+        },
+        {
+            "id": 2,
+            "story": "story text",
+            "options": [
+                { "option": "continue", "link": 9 },
+                { "option": "Go seek your friend", "link": 8 }
+            ]
+        },
+        {
+            "id": 3,
+            "story": "story text",
+            "options": [
+                { "option": "continue", "link": 1 },
+                { "option": "continue", "link": 1 }
+            ]
+        },
+        {
+            "id": 4,
+            "story": "story text",
+            "options": [
+                { "option": "Punch Him in The Nuts", "link": 1 },
+                { "option": "Give Him a Daisy", "link": 1 }
+            ]
+        },
+        {
+            "id": 5,
+            "story": "story text",
+            "options": [
+                { "option": "continue", "link": 1 },
+                { "option": "Go seek your friend", "link": 1 }
+            ]
+        },
+        {
+            "id": 6,
+            "story": "story text",
+            "options": [
+                { "option": "continue", "link": 8 },
+                { "option2": "continue", "link": 9 }
+            ]
+        },
+        {
 
-  "beginning": "initial text",
-  /*PART 1*/
-  /* "FriendIsMissing": */
-  "stories": {
-    {
-      "id": 1,
-      "story": "story text",
-      "options": [
-        { "option": "Panic because your friend's gone" },
-        { "option": "Go seek your friend" }
-      ]
-    },
-    /*"Panic":*/
-    {
-      "id": 2,
-      "story": "story text",
-      "options": [
-        { "option": "continue" },
-        { "option": "Go seek your friend" }
-      ]
-    },
-    /* "goAdventure":*/
-    {
-      "id": 3,
-      "story": "story text",
-      "options": [
-        { "option": "continue" },
-        { "option": "continue" }
-      ]
-    },
+            "id": 7,
+            "story": "story text",
+            "options": [
+                { "option1": "Exit Left", "link": 8 },
+                { "option2": "Exit Right", "link": 9 }
+            ]
 
+        },
+        {
 
-    /*PART 2*/
+            "id": 8,
+            "story": "slip and die",
+            "finish": "Run from Noise"
 
-    /*"leprechaun": [{*/
-    {
-      "id": 4,
-      "story": "story text",
-      "options": [
-        { "option": "Punch Him in The Nuts" },
-        { "option": "Give Him a Daisy" }
-      ]
-    },
-
-    /*"punched": */
-    {
-      "id": 5,
-      "story": "story text",
-      "options": [
-        { "option": "continue" },
-        { "option": "Go seek your friend" }
-      ]
-    },
-    /*"daisy":*/
-    {
-      "id": 6,
-      "story": "story text",
-      "options": [
-        { "option": "continue" },
-        { "option2": "continue" }
-      ]
-    },
-    /*PART 3*/
-    {
-
-      "id": 7,
-      "story": "story text",
-      "options": [
-        { "option1": "Exit Left" },
-        { "option2": "Exit Right" }
-      ]
-
-    },
-
-    {
-
-      "id": 8,
-      "story": "slip and die",
-      "finish": "Run from Noise"
-
-    },
-
-
-    {
-      "id": 9,
-      "story": "find friend drunk a short distance away",
-      "finish": "finish"
-    }
-  }
+        },
+        {
+            "id": 9,
+            "story": "find friend drunk a short distance away",
+            "finish": "finish"
+        }
+    ]
 }
